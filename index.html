@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">José Nuñez</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Inicio</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Acerca de mí</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Logros</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hola,<br>Soy <span class="home__title-color">José Nuñez</span><br>Backend Developer</h1>
+
+                    <a href="#" class="button">Contáctame</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/jose-nu%C3%B1ez-749b96218/" class="home__social-icon" target="_blank" rel="noopener noreferrer">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+
+                    <a href="https://github.com/joseloc16" class="home__social-icon" target="_blank" rel="noopener noreferrer">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/profile.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Acerca de mí</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/yoni.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Soy José</h2>
+                        <p class="about__text"> Profesional dedicado a la programación,
+                            me defino por ser una persona con ganas
+                            de aprender y capaz de adaptarme a
+                            cualquier circunstancia y dar siempre lo
+                            mejor de mí en cualquier proyecto, al
+                            mismo tiempo que me esfuerzo por
+                            trabajar en equipo.</p>
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Habilidades</h2>
+
+                <!-- Primer bloque: Lenguajes de Programación -->
+                <div class="skills__container bd-grid">
+                    <div>
+                        <h2 class="skills__subtitle">Lenguajes de Programación</h2>
+                        <p class="skills__text">Lenguajes en los que tengo experiencia para el desarrollo backend y de aplicaciones web.</p>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/java.png" alt="MySQL" class="skills__icon">
+                                <span class="skills__name">Java</span>
+                            </div>
+                            <div class="skills__bar skills__java"></div>
+                            <div>
+                                <span class="skills__percentage">75%-80%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/javascript.png" alt="Spring Boot Icon" class="skills__icon">
+                                <span class="skills__name">JavaScript</span>
+                            </div>
+                            <div class="skills__bar skills__js"></div>
+                            <div>
+                                <span class="skills__percentage">50%-60%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/sql.png" alt="Spring Boot Icon" class="skills__icon">
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__sql"></div>
+                            <div>
+                                <span class="skills__percentage">65%-75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="assets/img/lenguajes.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+
+                <!-- Segundo bloque: Frameworks y Herramientas -->
+                <div class="skills__container bd-grid">
+                    <div>
+                        <h2 class="skills__subtitle">Frameworks y Herramientas</h2>
+                        <p class="skills__text">Tecnologías que utilizo para la creación, gestión y despliegue de proyectos backend.</p>
+
+                        <!-- Spring Boot -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/springboot.png" alt="Spring Boot Icon" class="skills__icon">
+                                <span class="skills__name">Spring Boot</span>
+                            </div>
+                            <div class="skills__bar skills__spring"></div>
+                            <div>
+                                <span class="skills__percentage">60%-70%</span>
+                            </div>
+                        </div>
+
+                        <!-- MySQL -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/mysql.png" alt="MySQL" class="skills__icon">
+                                <span class="skills__name">MySQL</span>
+                            </div>
+                            <div class="skills__bar skills__mysql"></div>
+                            <div>
+                                <span class="skills__percentage">50%-60%</span>
+                            </div>
+                        </div>
+
+                        <!-- PostgreSQL -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/postgresql.png" alt="PostgreSQL" class="skills__icon">
+                                <span class="skills__name">PostgreSQL</span>
+                            </div>
+                            <div class="skills__bar skills__postgres"></div>
+                            <div>
+                                <span class="skills__percentage">65%-75%</span>
+                            </div>
+                        </div>
+
+                        <!-- Docker -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/docker.png" alt="Docker" class="skills__icon">
+                                <span class="skills__name">Docker</span>
+                            </div>
+                            <div class="skills__bar skills__docker"></div>
+                            <div>
+                                <span class="skills__percentage">40%-50%</span>
+                            </div>
+                        </div>
+
+                        <!-- Git -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/git.png" alt="Git" class="skills__icon">
+                                <span class="skills__name">Git</span>
+                            </div>
+                            <div class="skills__bar skills__git"></div>
+                            <div>
+                                <span class="skills__percentage">70%-80%</span>
+                            </div>
+                        </div>
+
+                        <!-- Postman -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/postman.png" alt="Postman" class="skills__icon">
+                                <span class="skills__name">Postman</span>
+                            </div>
+                            <div class="skills__bar skills__postman"></div>
+                            <div>
+                                <span class="skills__percentage">60%-70% </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Imagen de fondo o decorativa -->
+                    <div>
+                        <img src="assets/img/herramientas.jpg   " alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Experiencia Laboral</h2>
+
+                <div class="work__container bd-grid">
+
+                    <!-- Primer trabajo -->
+                    <div class="work__card">
+                        <h3 class="work__title">Developer Junior Java</h3>
+                        <p class="work__company">NTT DATA | Nov 2021 - Ago 2022</p>
+                        <ul class="work__description">
+                            <li>Diseño, desarrollo y prueba de rendimiento para el paso a certificación de una API de negocio.</li>
+                            <li>Revisé y probé el código existente para descubrir y corregir errores.</li>
+                            <li>Participé en reuniones semanales del equipo dando informe de los progresos del proyecto.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Segundo trabajo -->
+                    <div class="work__card">
+                        <h3 class="work__title">Ingeniero de Software I</h3>
+                        <p class="work__company">Novatronic | Sep 2022 - Dic 2024</p>
+                        <ul class="work__description">
+                            <li>Resolución de bugs e incidencias.</li>
+                            <li>Desarrollo de nuevas funcionalidades.</li>
+                            <li>Creación de test unitarios y refactorización de código para cumplir con las métricas de SonarQube.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--===== COURSES =====-->
+            <section class="courses section" id="courses">
+                <h2 class="section-title">Cursos</h2>
+
+                <div class="courses__container bd-grid">
+
+                    <!-- Cartilla de Cursos -->
+                    <div class="courses__card">
+                        <ul class="courses__list">
+                            <li><strong>PCAP:</strong> Programming Essentials in Python - Cisco Networking Academy</li>
+                            <li><strong>IoT Fundamentals:</strong> Big Data & Analytics - Cisco Networking Academy</li>
+                            <li><strong>Java 11 Backend Developer -</strong> MitoCode</li>
+                            <li><strong>Java 17 Fundamentals Developer -</strong> Cibertec</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Joseloc</p>
+
+            <div class="footer__social">
+                <a href="https://www.facebook.com/Joseloc12/" class="footer__icon" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+
+                <a href="https://www.instagram.com/joseloc17/" class="footer__icon" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </footer>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
