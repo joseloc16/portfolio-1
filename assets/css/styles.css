@@ -569,3 +569,7 @@ img {
 .courses__list li {
   margin-bottom: 1rem;
 }
+
+.centered-title {
+    text-align: center;
+}
